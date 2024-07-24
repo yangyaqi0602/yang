@@ -63,9 +63,10 @@ div#menu {
 }
 
 div#art {
-    width: 90%;
+    width: 50%;
     float: left;
     position: absolute;
+    margin: 0px 0px 0px 0px;
 }
 
 li img {
@@ -88,8 +89,8 @@ li img {
 
 div#about p {
     font-size: 20px;
-    width: 51%;
+    width: 60%;
     float: left;
     text-align: left;
-    margin: 0px 0px 0px 10px;
+    margin: -5px 0px 0px 10px;
 }
