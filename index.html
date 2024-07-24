@@ -6,45 +6,33 @@
   <title>Clickable Text Example</title>
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2202.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 40.0px 'Songti SC'; color: #000000; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 20.0px 'Songti SC'; color: #000000; -webkit-text-stroke: #000000}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 30.0px 'Songti SC'; color: #000000; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    
-    /* 添加悬浮下划线样式 */
-    .underline-on-hover:hover {
-      text-decoration: underline;
-    }
-
-    /* 添加点击后透明度效果 */
-    .clickable-text {
-      color: #000000; /* 初始文字颜色 */
-    }
-    
-    .clickable-text.clicked {
-      color: rgba(0, 0, 0, 0.1); /* 透明度10% */
-    }
-    
-    a {
-      text-decoration: none; /* 去掉默认的下划线 */
-      color: inherit; /* 使用父元素的颜色 */
-    }
-  </style>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <p class="p1"><span class="s1">a</span></p>
-  <p class="p2 clickable-text underline-on-hover">一</p>
-  <p class="p3 clickable-text"><span class="s1"><br></span></p>
-  <p class="p1 clickable-text"><span class="s1">n</span></p>
-  <p class="p2 clickable-text underline-on-hover">个</p>
-  <p class="p3 clickable-text"><span class="s1"><br></span></p>
-  <p class="p3 clickable-text"><span class="s1"><br></span></p>
-  <p class="p3 clickable-text"><span class="s1"><br></span></p>
-  <p class="p3 clickable-text"><span class="s1"><br></span></p>
-  <p class="p1 clickable-text"><span class="s1">y</span></p>
+  <p class="p1">
+	<span class="s1">a</span>
+  </p>
   <p class="p2 clickable-text underline-on-hover">
-    <a href="about.html">杨</a> <!-- 替换成目标页面的实际路径 -->
+    <span class="s1">一</span>
+  </p>
+  <p class="p3 clickable-text"><span class="s1"><br></span></p>
+  <p class="p1 clickable-text">
+	<span class="s1">n</span>
+  </p>
+  <p class="p2 clickable-text underline-on-hover">
+	<span class="s1">个</span>
+  </p>
+  <p class="p3 clickable-text"><span class="s1"><br></span></p>
+  <p class="p3 clickable-text"><span class="s1"><br></span></p>
+  <p class="p3 clickable-text"><span class="s1"><br></span></p>
+  <p class="p3 clickable-text"><span class="s1"><br></span></p>
+  <p class="p1 clickable-text">
+	<span class="s1">y</span>
+  </p>
+  <p class="p2 clickable-text underline-on-hover">
+	<span class="s1">
+		<a href="about.html">杨</a> <!-- 替换成目标页面的实际路径 -->
+	</span>
   </p>
 
   <script>
