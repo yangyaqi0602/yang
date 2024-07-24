@@ -1,20 +1,21 @@
 * {
 	margin: 0.0px 0.0px 0.0px 0.0px; 
+  padding: 0.0px 0.0px 0.0px 0.0px; 
 	text-align: right; 
 	font: 40.0px 'Songti SC'; 
 	color: #000000; 
 	-webkit-text-stroke: #000000;
 }
 
-p{
+#menu p{
 	height:40px;
 }
 
-span.s1 {
+#menu span.s1 {
 	font-kerning: none;
 }
 
-.p1 span,.p2 span{  
+#menu .p1 span,#menu .p2 span{  
   float: right;
   width: 40px;
   height: 40px;
@@ -24,7 +25,7 @@ span.s1 {
   display: inline-block;
 }
 
-.p2 span{
+#menu .p2 span{
   line-height: 1.8em;
   font-size: 3vh;
 }
@@ -54,4 +55,41 @@ a {
 /* 设置为自定义图像作为指针 */
 * {
   cursor: url('../images/mousee.png'), auto;
+}
+
+div#menu {
+    position: fixed;
+    right: 0;
+}
+
+div#art {
+    width: 90%;
+    float: left;
+    position: absolute;
+}
+
+li img {
+    width: 100%;
+}
+
+#art p {
+    width: 100%;
+    text-align: left;
+    padding: 0px 300px 0px 0px;
+    font-size: 21px;
+    margin: -10px 0px 200px 0px;
+}
+
+.grey p span {
+    color: #0000000;
+
+
+}
+
+div#about p {
+    font-size: 20px;
+    width: 51%;
+    float: left;
+    text-align: left;
+    margin: 0px 0px 0px 10px;
 }
