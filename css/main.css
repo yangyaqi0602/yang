@@ -20,13 +20,13 @@ span.s1 {
   height: 40px;
   text-align: center;
   line-height: 1em;
-  font-size: 3vw;
+  font-size: 4vh;
   display: inline-block;
 }
 
 .p2 span{
   line-height: 1.8em;
-  font-size: 2vw;
+  font-size: 3vh;
 }
 
 
