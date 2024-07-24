@@ -2,7 +2,7 @@
 	margin: 5px 0.0px 0.0px 0.0px; 
   padding: 0.0px 0.0px 0.0px 0.0px; 
 	text-align: right; 
-	font: 18.0px 'Songti SC'; 
+	font: 30.0px 'Songti SC';
 	color: #000000; 
 	-webkit-text-stroke: #000000;
 }
@@ -88,7 +88,7 @@ li img {
 }
 
 div#about p {
-    font-size: 18px;
+    font-size: 30px;
     width: 90%;
     float: left;
     text-align: left;
