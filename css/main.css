@@ -1,5 +1,5 @@
 * {
-	margin: 5px 0.0px 0.0px 0.0px; 
+	margin: 0px 0.0px 0.0px 0px; 
   padding: 0.0px 0.0px 0.0px 0.0px; 
 	text-align: right; 
 	font: 30.0px 'Songti SC';
@@ -63,7 +63,7 @@ div#menu {
 }
 
 div#art {
-    width: 50%;
+    width: 80%;
     float: left;
     position: absolute;
     margin: 0px 0px 0px 0px;
@@ -77,7 +77,7 @@ li img {
     width: 100%;
     text-align: left;
     padding: 0px 300px 0px 0px;
-    font-size: 21px;
+    font-size: 30px;
     margin: -10px 0px 200px 0px;
 }
 
@@ -93,4 +93,5 @@ div#about p {
     float: left;
     text-align: left;
     margin: -5px 0px 0px 10px;
+
 }
