@@ -9,18 +9,23 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <div id="menu" class="grey">
   <p class="p1">
 	<span class="s1">a</span>
   </p>
   <p class="p2 clickable-text underline-on-hover">
-    <span class="s1">一</span>
+    <span class="s1">      
+      <a href="a.html">一</a> <!-- 替换成目标页面的实际路径 -->
+</span>
   </p>
   <p class="p3 clickable-text"><span class="s1"><br></span></p>
   <p class="p1 clickable-text">
 	<span class="s1">n</span>
   </p>
   <p class="p2 clickable-text underline-on-hover">
-	<span class="s1">个</span>
+	<span class="s1">    
+    <a href="n.html">个</a> <!-- 替换成目标页面的实际路径 -->
+</span>
   </p>
   <p class="p3 clickable-text"><span class="s1"><br></span></p>
   <p class="p3 clickable-text"><span class="s1"><br></span></p>
@@ -34,7 +39,18 @@
 		<a href="about.html">杨</a> <!-- 替换成目标页面的实际路径 -->
 	</span>
   </p>
+</div>
+<div id="art">
+  <ul>
+    <li> <img src="images/spring_f_1.jpg">
+      <p> Spring, Arnhem, 2023, riso print by Jan Piter Karper
+      </p>
+    </li>
+     <li><img src="images/spring_f_6.jpg">
+    </li>
+  </ul>
 
+</div>
   <script>
     // 添加点击事件监听器
     document.querySelectorAll('.clickable-text').forEach(element => {
