@@ -50,3 +50,8 @@ a {
   color: inherit; /* 使用父元素的颜色 */
   font-size: inherit;
 }
+ 
+/* 设置为自定义图像作为指针 */
+* {
+  cursor: url('../images/mousee.png'), auto;
+}
